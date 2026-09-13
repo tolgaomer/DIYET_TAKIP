@@ -143,6 +143,20 @@ export function yeniYiyecekId() {
   return `elle-${Date.now()}-${Math.round(Math.random() * 1000)}`
 }
 
+// OFF'tan çekilen ürünleri yerel tabloyla aynı depoya yazar (ROJE.md §5,
+// katman 2: önbellek). Böylece bir daha aranınca ağ isteği olmadan bulunur.
+export async function offSonuclariOnbellekle(urunler) {
+  if (!urunler.length) return
+  const db = await veritabani()
+  const tx = db.transaction('yiyecekler', 'readwrite')
+  await Promise.all(
+    urunler.map((urun) =>
+      tx.store.put({ ...urun, aramaAdi: aramaAdiUret(urun.ad), guncellendi: Date.now() })
+    )
+  )
+  await tx.done
+}
+
 export async function tumVeriyiDisaAktar() {
   const db = await veritabani()
   const [gunler, yiyecekler, favoriler, ayarlar] = await Promise.all([
