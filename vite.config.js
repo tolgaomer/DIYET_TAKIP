@@ -2,10 +2,13 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
-// GitHub Pages bu repoyu https://<kullanıcı>.github.io/YZ_CODE/ altında yayınlar;
-// derleme sırasında tüm yollar bu alt dizine göre ayarlanır. Yerel geliştirmede kökte kalır.
+// GitHub Pages bu repoyu https://<kullanıcı>.github.io/<repo-adı>/ altında yayınlar;
+// derleme sırasında tüm yollar bu alt dizine göre ayarlanır. CI, PAGES_BASE'i
+// depo adından üretip geçirir (bkz. .github/workflows/deploy-pages.yml) — repo
+// yeniden adlandırılsa bile yol elle güncellenmek zorunda kalmaz. Yerel
+// geliştirmede kökte kalır.
 export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/YZ_CODE/' : '/',
+  base: command === 'build' ? process.env.PAGES_BASE || '/' : '/',
   plugins: [
     react(),
     VitePWA({
