@@ -196,6 +196,15 @@ Barkoda göre: https://world.openfoodfacts.org/api/v2/product/{barkod}.json
 OFF kullanım politikası gereği her istekte tanımlayıcı bir `User-Agent`
 başlığı gönder: `DiyetGunlugu/1.0 (iletisim-adresi)`.
 
+*Uygulanma notu:* tarayıcının `fetch()` API'si güvenlik gereği `User-Agent`
+başlığını elle ayarlamaya izin vermiyor (Fetch spesifikasyonunda yasaklı
+başlık listesinde). Bu statik, sunucusuz bir PWA olduğu için (§1) bunu
+sunucu tarafında da telafi edecek bir ara katman yok — istek doğrudan
+kullanıcının tarayıcısından, tarayıcının kendi varsayılan User-Agent'ıyla
+gidiyor. OFF'un kendi web arayüzü de aynı tarayıcı kısıtına tabi; büyük
+hacimli/scriptli erişim için konan bu kural, tekil kullanıcı taramalarını
+hedeflemiyor.
+
 İlgili alanlar: `nutriments["energy-kcal_100g"]`, `carbohydrates_100g`,
 `proteins_100g`, `fat_100g`. Bu alanların eksik geldiği ürünler arama
 sonucunda gösterilmez — yarım veri, yanlış veridir.
@@ -364,11 +373,15 @@ Boş ekran davet eder, uyarmaz.
 ## 11. Yol haritası
 
 **v0.1 — kendi telefonum.** Gün görünümü, yerel tablo araması, elle giriş,
-miktar hesabı, kilo kaydı, IndexedDB, dışa/içe aktarma. OFF yok, hareket yok,
-PDF yok. Hedef: bir hafta kesintisiz kullanabilmek.
+miktar hesabı, kilo kaydı, IndexedDB, dışa/içe aktarma. Hareket yok, PDF yok.
+Hedef: bir hafta kesintisiz kullanabilmek.
 
-**v0.2 — veri.** Open Food Facts araması ve önbellek. Türk yemekleri tablosu
-300 kaleme çıkar. Hareket tablosu ve MET hesabı. Sık kullanılanlar.
+*Not: OFF araması v0.2'den öne çekildi (bkz. §14) — yerel 50 kalemlik tablo
+tek başına yetersiz kaldığı için.*
+
+**v0.2 — veri.** ~~Open Food Facts araması ve önbellek.~~ (öne çekildi, v0.1'de
+tamam.) Türk yemekleri tablosu 300 kaleme çıkar. Hareket tablosu ve MET
+hesabı. Sık kullanılanlar zaten v0.1'de var.
 
 **v0.3 — paylaşılabilir.** PDF çıktısı, geçmiş görünümü, yedek hatırlatması,
 gizlilik metni. Netlify veya Vercel'e yayın. Ana ekrana ekleme yönergesi içeren
@@ -418,12 +431,20 @@ Yol haritası (§11) neyin yapılacağını söyler; burası neyin nasıl yapıl
   yüklenir.
 - `hareketler` deposu ve MET hesaplaması v0.2'ye bırakıldı; v0.1'de hareket
   girişi yok, bu yüzden depo şeması hazır ama kullanılmıyor.
-- Arama tek katmanlı: yalnızca yerel tablo. OFF çağrısı v0.1'de yok, bu yüzden
-  arama ekranında "Ambalajlı ürünlerde ara" bölümü gösterilmiyor.
+- Arama üç katmanlı (§5): önce yerel tablo, sonra 400ms gecikmeli Open Food
+  Facts araması (`src/api/off.js`, `AramaEkle.jsx`). OFF sonuçları seçilmeden
+  önce bile `db.offSonuclariOnbellekle` ile `yiyecekler` deposuna yazılır —
+  bir sonraki aramada (çevrimdışı dahil) tekrar ağa gitmeden bulunur. Eksik
+  besin değerli ürünler `off.js` içinde filtrelenip hiç gösterilmez. OFF'a
+  hiçbir kullanıcı verisi gitmiyor, yalnızca aranan ad. Barkod arama
+  (`/product/{barkod}.json`) v0.1'de yok — kamera/barkod okuma zaten v0.4'e
+  planlı (§11); ad aramasıyla dönen `code` alanı önbellekte `kaynakId` olarak
+  tutuluyor, ileride barkoddan doğrudan arama eklemek kolaylaşsın diye.
 - PDF ve geçmiş (son 30 gün grafiği) ekranı yok; gün görünümünde yalnızca
   ‹ › okları ile gün gün gezinme var.
-- Yazı tipleri (Fraunces, Archivo) `public/fonts/` altında yerelden sunuluyor;
-  `@font-face` `src/styles.css` içinde tanımlı.
+- Yazı tipleri (Fraunces, Archivo) `src/fonts/` altında yerelden sunuluyor
+  (GitHub Pages alt dizin düzeltmesiyle `public/fonts/`'tan taşındı, bkz.
+  aşağıdaki not); `@font-face` `src/styles.css` içinde tanımlı.
 - PWA temel kurulumu (`vite-plugin-pwa`, manifest, uygulama kabuğu önbelleği)
   v0.1'de var, çünkü offline çalışma projenin temel mimari kararı — v0.2/v0.3
   ile ilgili olan kısım yalnızca OFF ağ-öncelikli önbellek stratejisi.

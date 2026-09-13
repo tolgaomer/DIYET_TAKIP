@@ -1,9 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
-import { yiyecekAra } from '../db/db.js'
+import { yiyecekAra, offSonuclariOnbellekle } from '../db/db.js'
+import { offAra } from '../api/off.js'
 
 export default function AramaEkle({ sikKullanilanlar, onKapat, onSec, onElleGir }) {
   const [sorgu, setSorgu] = useState('')
   const [sonuclar, setSonuclar] = useState([])
+  const [offSonuclar, setOffSonuclar] = useState([])
+  const [offYukleniyor, setOffYukleniyor] = useState(false)
+  const [offUlasilamadi, setOffUlasilamadi] = useState(false)
   const girisRef = useRef(null)
 
   useEffect(() => {
@@ -23,6 +27,35 @@ export default function AramaEkle({ sikKullanilanlar, onKapat, onSec, onElleGir 
       guncel = false
     }
   }, [sorgu])
+
+  // Ambalajlı ürünler için Open Food Facts'a 400ms gecikmeli istek (ROJE.md §6.2).
+  useEffect(() => {
+    setOffUlasilamadi(false)
+    if (sorgu.trim().length < 2) {
+      setOffSonuclar([])
+      return
+    }
+    const denetleyici = new AbortController()
+    const zamanlayici = setTimeout(async () => {
+      setOffYukleniyor(true)
+      try {
+        const sonuc = await offAra(sorgu, { sinyal: denetleyici.signal })
+        setOffSonuclar(sonuc)
+        offSonuclariOnbellekle(sonuc)
+      } catch (hata) {
+        if (hata.name !== 'AbortError') setOffUlasilamadi(true)
+      } finally {
+        setOffYukleniyor(false)
+      }
+    }, 400)
+    return () => {
+      denetleyici.abort()
+      clearTimeout(zamanlayici)
+    }
+  }, [sorgu])
+
+  const yerelIdler = new Set(sonuclar.map((y) => y.id))
+  const gosterilecekOff = offSonuclar.filter((y) => !yerelIdler.has(y.id))
 
   return (
     <div className="ekran-ortu" role="dialog" aria-label="Yiyecek ara ve ekle">
@@ -73,6 +106,44 @@ export default function AramaEkle({ sikKullanilanlar, onKapat, onSec, onElleGir 
               <p className="bos-durum" style={{ padding: '20px 0' }}>
                 Bulamadık.
               </p>
+            )}
+
+            {sorgu.trim().length >= 2 && (
+              <>
+                <div className="bolum-baslik" style={{ margin: '18px 0 4px', padding: '6px 4px' }}>
+                  <span>Ambalajlı ürünlerde ara</span>
+                </div>
+                {offYukleniyor && (
+                  <p className="bos-durum" style={{ padding: '12px 0' }}>
+                    Aranıyor…
+                  </p>
+                )}
+                {!offYukleniyor && offUlasilamadi && (
+                  <p className="bos-durum" style={{ padding: '12px 0' }}>
+                    Şu an ulaşılamıyor, yerel tabloda arayabilir ya da elle girebilirsin.
+                  </p>
+                )}
+                {!offYukleniyor &&
+                  !offUlasilamadi &&
+                  gosterilecekOff.map((y) => (
+                    <button key={y.id} className="arama-sonuc dokunma" onClick={() => onSec(y)}>
+                      <span>
+                        <span className="arama-sonuc-ad">
+                          {y.ad}
+                          {y.marka ? ` — ${y.marka}` : ''}
+                        </span>
+                        <span className="arama-sonuc-detay">
+                          {y.kcal100} kcal / 100 {y.birim100}
+                        </span>
+                      </span>
+                    </button>
+                  ))}
+                {!offYukleniyor && !offUlasilamadi && gosterilecekOff.length > 0 && (
+                  <p className="arama-sonuc-detay" style={{ padding: '10px 4px 0' }}>
+                    Ambalajlı ürün verileri Open Food Facts'ten (ODbL).
+                  </p>
+                )}
+              </>
             )}
           </div>
         )}
