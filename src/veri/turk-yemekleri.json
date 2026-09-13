@@ -1,0 +1,1070 @@
+[
+  {
+    "id": "tr-0001",
+    "ad": "Mercimek çorbası",
+    "aramaAdi": "mercimek corbasi",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 72,
+    "karbonhidrat100": 9.6,
+    "protein100": 3.6,
+    "yag100": 2.0,
+    "porsiyonlar": [
+      {
+        "ad": "1 kase (250 g)",
+        "miktar": 250
+      },
+      {
+        "ad": "1 kepçe (120 g)",
+        "miktar": 120
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0002",
+    "ad": "Ezogelin çorbası",
+    "aramaAdi": "ezogelin corbasi",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 65,
+    "karbonhidrat100": 8.5,
+    "protein100": 2.8,
+    "yag100": 2.4,
+    "porsiyonlar": [
+      {
+        "ad": "1 kase (250 g)",
+        "miktar": 250
+      },
+      {
+        "ad": "1 kepçe (120 g)",
+        "miktar": 120
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0003",
+    "ad": "Yayla çorbası",
+    "aramaAdi": "yayla corbasi",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 58,
+    "karbonhidrat100": 6.5,
+    "protein100": 2.6,
+    "yag100": 2.3,
+    "porsiyonlar": [
+      {
+        "ad": "1 kase (250 g)",
+        "miktar": 250
+      },
+      {
+        "ad": "1 kepçe (120 g)",
+        "miktar": 120
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0004",
+    "ad": "Tarhana çorbası",
+    "aramaAdi": "tarhana corbasi",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 55,
+    "karbonhidrat100": 7.0,
+    "protein100": 2.0,
+    "yag100": 2.0,
+    "porsiyonlar": [
+      {
+        "ad": "1 kase (250 g)",
+        "miktar": 250
+      },
+      {
+        "ad": "1 kepçe (120 g)",
+        "miktar": 120
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0005",
+    "ad": "Domates çorbası",
+    "aramaAdi": "domates corbasi",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 48,
+    "karbonhidrat100": 6.0,
+    "protein100": 1.2,
+    "yag100": 2.0,
+    "porsiyonlar": [
+      {
+        "ad": "1 kase (250 g)",
+        "miktar": 250
+      },
+      {
+        "ad": "1 kepçe (120 g)",
+        "miktar": 120
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0006",
+    "ad": "Şehriye çorbası",
+    "aramaAdi": "sehriye corbasi",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 50,
+    "karbonhidrat100": 7.5,
+    "protein100": 1.8,
+    "yag100": 1.3,
+    "porsiyonlar": [
+      {
+        "ad": "1 kase (250 g)",
+        "miktar": 250
+      },
+      {
+        "ad": "1 kepçe (120 g)",
+        "miktar": 120
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0007",
+    "ad": "Pirinç pilavı",
+    "aramaAdi": "pirinc pilavi",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 170,
+    "karbonhidrat100": 31,
+    "protein100": 3.0,
+    "yag100": 4.0,
+    "porsiyonlar": [
+      {
+        "ad": "1 tabak (180 g)",
+        "miktar": 180
+      },
+      {
+        "ad": "1 kaşık (60 g)",
+        "miktar": 60
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0008",
+    "ad": "Bulgur pilavı",
+    "aramaAdi": "bulgur pilavi",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 150,
+    "karbonhidrat100": 28,
+    "protein100": 4.5,
+    "yag100": 2.5,
+    "porsiyonlar": [
+      {
+        "ad": "1 tabak (180 g)",
+        "miktar": 180
+      },
+      {
+        "ad": "1 kaşık (60 g)",
+        "miktar": 60
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0009",
+    "ad": "Şehriyeli pirinç pilavı",
+    "aramaAdi": "sehriyeli pirinc pilavi",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 175,
+    "karbonhidrat100": 32,
+    "protein100": 3.2,
+    "yag100": 4.2,
+    "porsiyonlar": [
+      {
+        "ad": "1 tabak (180 g)",
+        "miktar": 180
+      },
+      {
+        "ad": "1 kaşık (60 g)",
+        "miktar": 60
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0010",
+    "ad": "Nohutlu pilav",
+    "aramaAdi": "nohutlu pilav",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 165,
+    "karbonhidrat100": 27,
+    "protein100": 5.5,
+    "yag100": 3.8,
+    "porsiyonlar": [
+      {
+        "ad": "1 tabak (200 g)",
+        "miktar": 200
+      },
+      {
+        "ad": "1 kaşık (60 g)",
+        "miktar": 60
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0011",
+    "ad": "İç pilav",
+    "aramaAdi": "i c pilav",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 180,
+    "karbonhidrat100": 30,
+    "protein100": 3.5,
+    "yag100": 5.0,
+    "porsiyonlar": [
+      {
+        "ad": "1 tabak (180 g)",
+        "miktar": 180
+      },
+      {
+        "ad": "1 kaşık (60 g)",
+        "miktar": 60
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0012",
+    "ad": "Kuru fasulye (etli)",
+    "aramaAdi": "kuru fasulye etli",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 130,
+    "karbonhidrat100": 14,
+    "protein100": 8.0,
+    "yag100": 5.0,
+    "porsiyonlar": [
+      {
+        "ad": "1 porsiyon (250 g)",
+        "miktar": 250
+      },
+      {
+        "ad": "1 kaşık (60 g)",
+        "miktar": 60
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0013",
+    "ad": "Nohut yemeği (etli)",
+    "aramaAdi": "nohut yemegi etli",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 140,
+    "karbonhidrat100": 15,
+    "protein100": 8.5,
+    "yag100": 5.5,
+    "porsiyonlar": [
+      {
+        "ad": "1 porsiyon (250 g)",
+        "miktar": 250
+      },
+      {
+        "ad": "1 kaşık (60 g)",
+        "miktar": 60
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0014",
+    "ad": "Karnıyarık",
+    "aramaAdi": "karniyarik",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 160,
+    "karbonhidrat100": 8,
+    "protein100": 7.0,
+    "yag100": 11,
+    "porsiyonlar": [
+      {
+        "ad": "1 porsiyon (250 g)",
+        "miktar": 250
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0015",
+    "ad": "İzmir köfte",
+    "aramaAdi": "i zmir kofte",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 175,
+    "karbonhidrat100": 6,
+    "protein100": 12,
+    "yag100": 11,
+    "porsiyonlar": [
+      {
+        "ad": "1 porsiyon (200 g)",
+        "miktar": 200
+      },
+      {
+        "ad": "1 adet köfte (60 g)",
+        "miktar": 60
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0016",
+    "ad": "Tas kebabı",
+    "aramaAdi": "tas kebabi",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 155,
+    "karbonhidrat100": 5,
+    "protein100": 14,
+    "yag100": 9,
+    "porsiyonlar": [
+      {
+        "ad": "1 porsiyon (200 g)",
+        "miktar": 200
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0017",
+    "ad": "Çoban kavurma",
+    "aramaAdi": "coban kavurma",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 190,
+    "karbonhidrat100": 3,
+    "protein100": 16,
+    "yag100": 13,
+    "porsiyonlar": [
+      {
+        "ad": "1 porsiyon (200 g)",
+        "miktar": 200
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0018",
+    "ad": "Kadınbudu köfte",
+    "aramaAdi": "kadinbudu kofte",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 210,
+    "karbonhidrat100": 12,
+    "protein100": 11,
+    "yag100": 13,
+    "porsiyonlar": [
+      {
+        "ad": "1 adet (70 g)",
+        "miktar": 70
+      },
+      {
+        "ad": "1 porsiyon (210 g)",
+        "miktar": 210
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0019",
+    "ad": "Hünkarbeğendi",
+    "aramaAdi": "hunkarbegendi",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 140,
+    "karbonhidrat100": 7,
+    "protein100": 7,
+    "yag100": 9,
+    "porsiyonlar": [
+      {
+        "ad": "1 porsiyon (250 g)",
+        "miktar": 250
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0020",
+    "ad": "Zeytinyağlı taze fasulye",
+    "aramaAdi": "zeytinyagli taze fasulye",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 90,
+    "karbonhidrat100": 7,
+    "protein100": 2.2,
+    "yag100": 6.0,
+    "porsiyonlar": [
+      {
+        "ad": "1 porsiyon (200 g)",
+        "miktar": 200
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0021",
+    "ad": "Zeytinyağlı barbunya",
+    "aramaAdi": "zeytinyagli barbunya",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 110,
+    "karbonhidrat100": 12,
+    "protein100": 4.5,
+    "yag100": 5.0,
+    "porsiyonlar": [
+      {
+        "ad": "1 porsiyon (200 g)",
+        "miktar": 200
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0022",
+    "ad": "İmam bayıldı",
+    "aramaAdi": "i mam bayildi",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 105,
+    "karbonhidrat100": 9,
+    "protein100": 1.8,
+    "yag100": 7.0,
+    "porsiyonlar": [
+      {
+        "ad": "1 adet (150 g)",
+        "miktar": 150
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0023",
+    "ad": "Zeytinyağlı pırasa",
+    "aramaAdi": "zeytinyagli pirasa",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 85,
+    "karbonhidrat100": 8,
+    "protein100": 2.0,
+    "yag100": 5.0,
+    "porsiyonlar": [
+      {
+        "ad": "1 porsiyon (200 g)",
+        "miktar": 200
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0024",
+    "ad": "Zeytinyağlı enginar",
+    "aramaAdi": "zeytinyagli enginar",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 80,
+    "karbonhidrat100": 7,
+    "protein100": 2.5,
+    "yag100": 4.5,
+    "porsiyonlar": [
+      {
+        "ad": "1 adet (150 g)",
+        "miktar": 150
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0025",
+    "ad": "Yaprak sarma (zeytinyağlı)",
+    "aramaAdi": "yaprak sarma zeytinyagli",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 160,
+    "karbonhidrat100": 18,
+    "protein100": 2.5,
+    "yag100": 9.0,
+    "porsiyonlar": [
+      {
+        "ad": "5 adet (150 g)",
+        "miktar": 150
+      },
+      {
+        "ad": "1 adet (30 g)",
+        "miktar": 30
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0026",
+    "ad": "Menemen",
+    "aramaAdi": "menemen",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 130,
+    "karbonhidrat100": 4,
+    "protein100": 7,
+    "yag100": 9,
+    "porsiyonlar": [
+      {
+        "ad": "1 porsiyon (200 g)",
+        "miktar": 200
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0027",
+    "ad": "Sucuklu yumurta",
+    "aramaAdi": "sucuklu yumurta",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 220,
+    "karbonhidrat100": 1.5,
+    "protein100": 13,
+    "yag100": 18,
+    "porsiyonlar": [
+      {
+        "ad": "1 porsiyon (150 g)",
+        "miktar": 150
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0028",
+    "ad": "Haşlanmış yumurta",
+    "aramaAdi": "haslanmis yumurta",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 155,
+    "karbonhidrat100": 1.1,
+    "protein100": 13,
+    "yag100": 11,
+    "porsiyonlar": [
+      {
+        "ad": "1 adet (50 g)",
+        "miktar": 50
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0029",
+    "ad": "Beyaz peynir",
+    "aramaAdi": "beyaz peynir",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 264,
+    "karbonhidrat100": 1.5,
+    "protein100": 17,
+    "yag100": 21,
+    "porsiyonlar": [
+      {
+        "ad": "1 dilim (30 g)",
+        "miktar": 30
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0030",
+    "ad": "Kaşar peyniri",
+    "aramaAdi": "kasar peyniri",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 350,
+    "karbonhidrat100": 1.0,
+    "protein100": 25,
+    "yag100": 27,
+    "porsiyonlar": [
+      {
+        "ad": "1 dilim (30 g)",
+        "miktar": 30
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0031",
+    "ad": "Siyah zeytin",
+    "aramaAdi": "siyah zeytin",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 250,
+    "karbonhidrat100": 6,
+    "protein100": 1.5,
+    "yag100": 24,
+    "porsiyonlar": [
+      {
+        "ad": "5 adet (25 g)",
+        "miktar": 25
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0032",
+    "ad": "Yeşil zeytin",
+    "aramaAdi": "yesil zeytin",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 145,
+    "karbonhidrat100": 4,
+    "protein100": 1.0,
+    "yag100": 15,
+    "porsiyonlar": [
+      {
+        "ad": "5 adet (25 g)",
+        "miktar": 25
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0033",
+    "ad": "Bal",
+    "aramaAdi": "bal",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 304,
+    "karbonhidrat100": 82,
+    "protein100": 0.3,
+    "yag100": 0.0,
+    "porsiyonlar": [
+      {
+        "ad": "1 tatlı kaşığı (15 g)",
+        "miktar": 15
+      },
+      {
+        "ad": "1 yemek kaşığı (25 g)",
+        "miktar": 25
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0034",
+    "ad": "Tahin",
+    "aramaAdi": "tahin",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 595,
+    "karbonhidrat100": 18,
+    "protein100": 17,
+    "yag100": 54,
+    "porsiyonlar": [
+      {
+        "ad": "1 yemek kaşığı (20 g)",
+        "miktar": 20
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0035",
+    "ad": "Pekmez",
+    "aramaAdi": "pekmez",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 290,
+    "karbonhidrat100": 75,
+    "protein100": 1.0,
+    "yag100": 0.5,
+    "porsiyonlar": [
+      {
+        "ad": "1 yemek kaşığı (25 g)",
+        "miktar": 25
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0036",
+    "ad": "Beyaz ekmek",
+    "aramaAdi": "beyaz ekmek",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 265,
+    "karbonhidrat100": 51,
+    "protein100": 9,
+    "yag100": 3.2,
+    "porsiyonlar": [
+      {
+        "ad": "1 dilim (30 g)",
+        "miktar": 30
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0037",
+    "ad": "Tam buğday ekmeği",
+    "aramaAdi": "tam bugday ekmegi",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 247,
+    "karbonhidrat100": 41,
+    "protein100": 13,
+    "yag100": 3.4,
+    "porsiyonlar": [
+      {
+        "ad": "1 dilim (30 g)",
+        "miktar": 30
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0038",
+    "ad": "Çavdar ekmeği",
+    "aramaAdi": "cavdar ekmegi",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 250,
+    "karbonhidrat100": 48,
+    "protein100": 8.5,
+    "yag100": 3.3,
+    "porsiyonlar": [
+      {
+        "ad": "1 dilim (30 g)",
+        "miktar": 30
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0039",
+    "ad": "Simit",
+    "aramaAdi": "simit",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 330,
+    "karbonhidrat100": 55,
+    "protein100": 9,
+    "yag100": 9,
+    "porsiyonlar": [
+      {
+        "ad": "1 adet (110 g)",
+        "miktar": 110
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0040",
+    "ad": "Yufka",
+    "aramaAdi": "yufka",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 275,
+    "karbonhidrat100": 56,
+    "protein100": 8,
+    "yag100": 2.5,
+    "porsiyonlar": [
+      {
+        "ad": "1 adet (90 g)",
+        "miktar": 90
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0041",
+    "ad": "Elma",
+    "aramaAdi": "elma",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 52,
+    "karbonhidrat100": 14,
+    "protein100": 0.3,
+    "yag100": 0.2,
+    "porsiyonlar": [
+      {
+        "ad": "1 adet (150 g)",
+        "miktar": 150
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0042",
+    "ad": "Muz",
+    "aramaAdi": "muz",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 89,
+    "karbonhidrat100": 23,
+    "protein100": 1.1,
+    "yag100": 0.3,
+    "porsiyonlar": [
+      {
+        "ad": "1 adet (120 g)",
+        "miktar": 120
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0043",
+    "ad": "Portakal",
+    "aramaAdi": "portakal",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 47,
+    "karbonhidrat100": 12,
+    "protein100": 0.9,
+    "yag100": 0.1,
+    "porsiyonlar": [
+      {
+        "ad": "1 adet (200 g)",
+        "miktar": 200
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0044",
+    "ad": "Çilek",
+    "aramaAdi": "cilek",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 32,
+    "karbonhidrat100": 7.7,
+    "protein100": 0.7,
+    "yag100": 0.3,
+    "porsiyonlar": [
+      {
+        "ad": "1 su bardağı (150 g)",
+        "miktar": 150
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0045",
+    "ad": "Karpuz",
+    "aramaAdi": "karpuz",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 30,
+    "karbonhidrat100": 7.6,
+    "protein100": 0.6,
+    "yag100": 0.2,
+    "porsiyonlar": [
+      {
+        "ad": "1 dilim (300 g)",
+        "miktar": 300
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0046",
+    "ad": "Üzüm",
+    "aramaAdi": "uzum",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 69,
+    "karbonhidrat100": 18,
+    "protein100": 0.7,
+    "yag100": 0.2,
+    "porsiyonlar": [
+      {
+        "ad": "1 salkım (100 g)",
+        "miktar": 100
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0047",
+    "ad": "Kayısı",
+    "aramaAdi": "kayisi",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 48,
+    "karbonhidrat100": 11,
+    "protein100": 1.4,
+    "yag100": 0.4,
+    "porsiyonlar": [
+      {
+        "ad": "1 adet (35 g)",
+        "miktar": 35
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0048",
+    "ad": "Armut",
+    "aramaAdi": "armut",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 57,
+    "karbonhidrat100": 15,
+    "protein100": 0.4,
+    "yag100": 0.1,
+    "porsiyonlar": [
+      {
+        "ad": "1 adet (170 g)",
+        "miktar": 170
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0049",
+    "ad": "Yoğurt (tam yağlı)",
+    "aramaAdi": "yogurt tam yagli",
+    "marka": null,
+    "barkod": null,
+    "birim100": "g",
+    "kcal100": 61,
+    "karbonhidrat100": 4.7,
+    "protein100": 3.5,
+    "yag100": 3.3,
+    "porsiyonlar": [
+      {
+        "ad": "1 kase (200 g)",
+        "miktar": 200
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  },
+  {
+    "id": "tr-0050",
+    "ad": "Ayran",
+    "aramaAdi": "ayran",
+    "marka": null,
+    "barkod": null,
+    "birim100": "ml",
+    "kcal100": 33,
+    "karbonhidrat100": 2.0,
+    "protein100": 1.4,
+    "yag100": 2.0,
+    "porsiyonlar": [
+      {
+        "ad": "1 bardak (200 ml)",
+        "miktar": 200
+      }
+    ],
+    "kaynak": "yerel",
+    "guncellendi": 1767225600000
+  }
+]
