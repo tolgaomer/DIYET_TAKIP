@@ -430,3 +430,17 @@ Yol haritası (§11) neyin yapılacağını söyler; burası neyin nasıl yapıl
 - Türk yemekleri tablosu 50 kalemle başladı; TÜBER/TürKomp'un genel yayınlanmış
   değerlerine yakın, makul yuvarlanmış tahminlerdir — resmi tablo ile birebir
   doğrulanmadı. §13'teki açık konu hâlâ açık: kaynak birebir teyit edilmeli.
+- **Yayın kararı değişikliği:** §11'de yayına çıkma v0.3'e planlanmıştı, ama
+  v0.1'i kendi telefonundan kalıcı olarak kullanabilmek için GitHub Pages
+  yayını öne çekildi. `main`'e her push'ta `.github/workflows/deploy-pages.yml`
+  projeyi derleyip `https://<kullanıcı-adı>.github.io/YZ_CODE/` adresine
+  yayınlıyor (bir kerelik Settings → Pages → Source: "GitHub Actions" ayarı
+  gerekir). Bu adres GitHub'ın herkese açık statik dosya sunucusu; sunucu
+  yalnızca HTML/JS/CSS dosyalarını sunuyor, kullanıcı verisi (yemek kayıtları,
+  kilo) yine tamamen tarayıcının IndexedDB'sinde kalıyor — §2'deki gizlilik
+  mimarisi bozulmuyor. Bu yüzden `vite.config.js`'te derleme sırasında
+  `base: '/YZ_CODE/'` kullanılıyor (yerel geliştirmede kök `/` kalıyor);
+  yazı tipleri de `public/fonts/`'tan `src/fonts/`'a taşındı ki Vite onları
+  modül grafiğinin parçası olarak hash'leyip bu alt dizine göre doğru
+  yollarla derlesin — `public/` içindeki dosyalar ham kopyalandığı için
+  alt dizin öneki almıyordu.
